@@ -1,0 +1,82 @@
+# Linux EC2 only. Host networking keeps llama.cpp bound to loopback.
+# Only Caddy is public. PostgreSQL, Java, Python and Evon stay on loopback.
+name: callshield
+services:
+  database:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: callshield
+      POSTGRES_USER: callshield
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:?Run deploy/init_config.py first}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U callshield -d callshield"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  ai:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    network_mode: host
+    restart: unless-stopped
+    command: [uvicorn, 'app.main:app', --host, 127.0.0.1, --port, '8000', --workers, '1', --no-access-log, --limit-concurrency, '32', --ws-max-size, '8192', --ws-max-queue, '8']
+    environment:
+      APP_ENV: production
+      MOCK_MODE: ${MOCK_MODE:-true}
+      APP_API_KEY: ${APP_API_KEY:?Run deploy/init_config.py first}
+      GNANI_API_KEY: ${GNANI_API_KEY:-}
+      EVON_BASE_URL: http://127.0.0.1:8080/v1
+      EVON_API_KEY: ${EVON_API_KEY:-}
+      EVON_MODEL: evon
+      EVON_CONTEXT_TOKENS: ${EVON_CONTEXT_TOKENS:-4096}
+      RISK_MAX_TOKENS: ${RISK_MAX_TOKENS:-512}
+      EVON_TIMEOUT_SECONDS: ${EVON_TIMEOUT_SECONDS:-120}
+      LIVE_ENABLED: 'true'
+      PRISMA_ENABLED: 'true'
+      TIMBRE_ENABLED: 'true'
+    mem_limit: 2g
+  gateway:
+    build:
+      context: ..
+      dockerfile: gateway/Dockerfile
+    network_mode: host
+    restart: unless-stopped
+    depends_on:
+      database:
+        condition: service_healthy
+      ai:
+        condition: service_healthy
+    environment:
+      BIND_ADDRESS: 127.0.0.1
+      PORT: '8081'
+      DATABASE_URL: jdbc:postgresql://127.0.0.1:5432/callshield
+      DATABASE_USER: callshield
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      AI_SERVICE_URL: http://127.0.0.1:8000
+      APP_API_KEY: ${APP_API_KEY}
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-http://localhost:8090}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+    mem_limit: 768m
+  edge:
+    build:
+      context: ..
+      dockerfile: frontend/Dockerfile
+    network_mode: host
+    restart: unless-stopped
+    depends_on:
+      - gateway
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:-http://localhost:8090}
+      EDGE_BIND: ${EDGE_BIND:-127.0.0.1}
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+volumes:
+  postgres_data:
+  caddy_data:
+  caddy_config:

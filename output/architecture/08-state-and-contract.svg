@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1600" height="1000" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1600" height="1000"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1000)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1600" height="1000" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<rect x="0" y="986" width="1600" height="14" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,50%,43%); fill-rule: evenodd;"/>
+			<text x="56" y="949" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1898) scale(1,-1)">CALLSHIELD INDIA  /  ENGINEERING HANDOFF</text>
+			<text x="56" y="899" style="font-family: Helvetica-Bold; font-size: 37px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1798) scale(1,-1)">Result lifecycle &amp; teammate contract</text>
+			<text x="56" y="860" style="font-family: Helvetica; font-size: 19px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,1720) scale(1,-1)">IDs refer to real in-memory entries; Spring should retain successful reports durably.</text>
+			<path d="M 56,78 L 1544,78 Z" style="stroke: rgb(85%,89%,92%); stroke-linecap: butt; stroke-width: 2;"/>
+			<text x="56" y="50" style="font-family: Helvetica; font-size: 13px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,100) scale(1,-1)">Sources: app/services/report_store.py | app/services/pipeline.py | app/api/routes_analysis.py | schemas/responses.py</text>
+			<text x="56" y="23" style="font-family: Helvetica; font-size: 13px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,46) scale(1,-1)">Source snapshot: 20 October 2026 | M0-M5 implemented | External clients are separate projects</text>
+			<text x="1485" y="31" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,62) scale(1,-1)">08 / 08</text>
+			<rect x="56" y="675" width="325" height="105" rx="14" ry="14" style="stroke: rgb(7%,50%,43%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(90%,96%,94%); fill-rule: evenodd;"/>
+			<text x="76" y="746" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1492) scale(1,-1)">QUEUED</text>
+			<text x="76" y="712" style="font-family: Helvetica; font-size: 17px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1424) scale(1,-1)">Progress state</text>
+			<rect x="425" y="675" width="325" height="105" rx="14" ry="14" style="stroke: rgb(7%,50%,43%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(90%,96%,94%); fill-rule: evenodd;"/>
+			<text x="445" y="746" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1492) scale(1,-1)">TRANSCRIBING</text>
+			<text x="445" y="712" style="font-family: Helvetica; font-size: 17px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1424) scale(1,-1)">Audio only</text>
+			<rect x="794" y="675" width="325" height="105" rx="14" ry="14" style="stroke: rgb(7%,50%,43%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(90%,96%,94%); fill-rule: evenodd;"/>
+			<text x="814" y="746" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1492) scale(1,-1)">TRANSLATING</text>
+			<text x="814" y="712" style="font-family: Helvetica; font-size: 17px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1424) scale(1,-1)">Progress state</text>
+			<rect x="1163" y="675" width="325" height="105" rx="14" ry="14" style="stroke: rgb(7%,50%,43%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(90%,96%,94%); fill-rule: evenodd;"/>
+			<text x="1183" y="746" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1492) scale(1,-1)">CLASSIFYING</text>
+			<text x="1183" y="712" style="font-family: Helvetica; font-size: 17px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1424) scale(1,-1)">Progress state</text>
+			<path d="M 381,730 L 425,730 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="425 730, 414.1946 724.7804, 414.1946 735.2196" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,17%,25%); fill-rule: evenodd;"/>
+			<path d="M 750,730 L 794,730 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="794 730, 783.1946 724.7804, 783.1946 735.2196" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,17%,25%); fill-rule: evenodd;"/>
+			<path d="M 1119,730 L 1163,730 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="1163 730, 1152.195 724.7804, 1152.195 735.2196" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,17%,25%); fill-rule: evenodd;"/>
+			<path d="M 218,780 L 218,815 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 7, 5;"/>
+			<path d="M 218,815 L 956,815 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 7, 5;"/>
+			<path d="M 956,815 L 956,780 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 7, 5;"/>
+			<polygon points="956 780, 950.7804 790.8054, 961.2196 790.8054" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,17%,25%); fill-rule: evenodd;"/>
+			<text x="511.656" y="822" style="font-family: Helvetica; font-size: 16px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1644) scale(1,-1)">Text skips STT</text>
+			<rect x="1163" y="445" width="325" height="140" rx="14" ry="14" style="stroke: rgb(7%,50%,43%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(90%,96%,94%); fill-rule: evenodd;"/>
+			<text x="1183" y="551" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1102) scale(1,-1)">COMPLETED</text>
+			<text x="1183" y="517" style="font-family: Helvetica; font-size: 18px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1034) scale(1,-1)">A / B / C risk</text>
+			<text x="1183" y="492" style="font-family: Helvetica; font-size: 18px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,984) scale(1,-1)">Warning + provenance</text>
+			<path d="M 1325,675 L 1325,585 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="1325 585, 1319.78 595.8054, 1330.22 595.8054" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,17%,25%); fill-rule: evenodd;"/>
+			<rect x="56" y="445" width="650" height="140" rx="14" ry="14" style="stroke: rgb(72%,34%,34%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(98%,93%,93%); fill-rule: evenodd;"/>
+			<text x="76" y="551" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(72%,34%,34%); stroke:none;" transform="translate(0,1102) scale(1,-1)">FAILED / operational UNDETERMINED</text>
+			<text x="76" y="517" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1034) scale(1,-1)">Typed error envelope; no successful risk label.</text>
+			<text x="76" y="491" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,982) scale(1,-1)">Failure after allocation keeps its analysisId.</text>
+			<path d="M 956,675 L 956,630 Z" style="stroke: rgb(72%,34%,34%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 7, 5;"/>
+			<path d="M 956,630 L 381,630 Z" style="stroke: rgb(72%,34%,34%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 7, 5;"/>
+			<path d="M 381,630 L 381,585 Z" style="stroke: rgb(72%,34%,34%); stroke-linecap: butt; stroke-width: 2; stroke-dasharray: 7, 5;"/>
+			<polygon points="381 585, 375.7804 595.8054, 386.2196 595.8054" style="stroke: rgb(72%,34%,34%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,34%,34%); fill-rule: evenodd;"/>
+			<text x="563" y="643" style="font-family: Helvetica; font-size: 17px;fill: rgb(72%,34%,34%); stroke:none;" transform="translate(0,1286) scale(1,-1)">A ServiceError at any active stage</text>
+			<rect x="56" y="125" width="450" height="230" rx="14" ry="14" style="stroke: rgb(7%,50%,43%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(90%,96%,94%); fill-rule: evenodd;"/>
+			<text x="76" y="321" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,642) scale(1,-1)">Stable report payload</text>
+			<text x="76" y="287" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,574) scale(1,-1)">analysisId + status + inputType</text>
+			<text x="76" y="261" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,522) scale(1,-1)">Original and normalized text</text>
+			<text x="76" y="235" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,470) scale(1,-1)">Risk: code, level, null confidence</text>
+			<text x="76" y="209" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,418) scale(1,-1)">Rules + warning + provenance</text>
+			<text x="76" y="183" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,366) scale(1,-1)">Timing fields + mock flags</text>
+			<rect x="576" y="125" width="450" height="230" rx="14" ry="14" style="stroke: rgb(38%,48%,58%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="596" y="321" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(38%,48%,58%); stroke:none;" transform="translate(0,642) scale(1,-1)">GET /analyses/{id}</text>
+			<text x="596" y="287" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,574) scale(1,-1)">200: report, progress or saved error</text>
+			<text x="596" y="261" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,522) scale(1,-1)">404: missing / expired entry</text>
+			<text x="596" y="235" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,470) scale(1,-1)">Check body status even on HTTP 200</text>
+			<text x="596" y="209" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,418) scale(1,-1)">500 entries / 30-minute report TTL</text>
+			<text x="596" y="183" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,366) scale(1,-1)">Process restart loses all entries</text>
+			<rect x="1096" y="125" width="448" height="230" rx="14" ry="14" style="stroke: rgb(78%,48%,15%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(100%,95%,89%); fill-rule: evenodd;"/>
+			<text x="1116" y="321" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(78%,48%,15%); stroke:none;" transform="translate(0,642) scale(1,-1)">Spring integration rules</text>
+			<text x="1116" y="287" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,574) scale(1,-1)">Never translate failures into LOW_RISK</text>
+			<text x="1116" y="261" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,522) scale(1,-1)">Keep backend key away from React</text>
+			<text x="1116" y="235" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,470) scale(1,-1)">Authorize ownership before proxying</text>
+			<text x="1116" y="209" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,418) scale(1,-1)">No automatic paid-request retries</text>
+			<text x="1116" y="183" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,366) scale(1,-1)">Fetch capabilities before UI setup</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,13 @@
+services:
+  ai:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      MOCK_MODE: "true"
+      APP_ENV: development
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m,mode=1777
+    mem_limit: 512m
+    pids_limit: 128

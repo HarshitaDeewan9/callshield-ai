@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1600" height="1000" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1600" height="1000"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-1000)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1600" height="1000" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(98%,98%,99%); fill-rule: evenodd;"/>
+			<rect x="0" y="986" width="1600" height="14" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,50%,43%); fill-rule: evenodd;"/>
+			<text x="56" y="949" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1898) scale(1,-1)">CALLSHIELD INDIA  /  ENGINEERING HANDOFF</text>
+			<text x="56" y="899" style="font-family: Helvetica-Bold; font-size: 37px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1798) scale(1,-1)">Mock mode &amp; real integration contracts</text>
+			<text x="56" y="860" style="font-family: Helvetica; font-size: 19px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,1720) scale(1,-1)">The same REST contract is served by different startup-selected adapters. No silent fallback exists.</text>
+			<path d="M 56,78 L 1544,78 Z" style="stroke: rgb(85%,89%,92%); stroke-linecap: butt; stroke-width: 2;"/>
+			<text x="56" y="50" style="font-family: Helvetica; font-size: 13px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,100) scale(1,-1)">Sources: app/main.py | app/providers/mock_providers.py | gnani_prisma.py | gnani_timbre.py | google_translation.py</text>
+			<text x="56" y="23" style="font-family: Helvetica; font-size: 13px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,46) scale(1,-1)">Source snapshot: 20 October 2026 | M0-M5 implemented | External clients are separate projects</text>
+			<text x="1485" y="31" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(32%,41%,47%); stroke:none;" transform="translate(0,62) scale(1,-1)">06 / 08</text>
+			<rect x="56" y="690" width="1488" height="105" rx="14" ry="14" style="stroke: rgb(7%,50%,43%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(90%,96%,94%); fill-rule: evenodd;"/>
+			<text x="76" y="761" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1522) scale(1,-1)">Startup configuration</text>
+			<text x="76" y="727" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1454) scale(1,-1)">MOCK_MODE=true by default | Real/production mode requires a backend API key with at least 24 characters</text>
+			<rect x="56" y="245" width="700" height="385" rx="14" ry="14" style="stroke: rgb(7%,50%,43%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(90%,96%,94%); fill-rule: evenodd;"/>
+			<text x="76" y="596" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(7%,50%,43%); stroke:none;" transform="translate(0,1192) scale(1,-1)">MOCK_MODE=true</text>
+			<text x="76" y="562" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1124) scale(1,-1)">Evon: deterministic demonstration rules</text>
+			<text x="76" y="533" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1066) scale(1,-1)">Prisma: fixed English scam transcript</text>
+			<text x="76" y="504" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1008) scale(1,-1)">Timbre: playable 0.5-second test tone</text>
+			<text x="76" y="475" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,950) scale(1,-1)">Translation: identity, or fixed mock fixture</text>
+			<text x="76" y="446" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,892) scale(1,-1)">Every mocked stage has mock=true</text>
+			<text x="76" y="417" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,834) scale(1,-1)">No provider network calls or API credentials</text>
+			<rect x="844" y="245" width="700" height="385" rx="14" ry="14" style="stroke: rgb(46%,37%,68%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(94%,92%,98%); fill-rule: evenodd;"/>
+			<text x="864" y="596" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(46%,37%,68%); stroke:none;" transform="translate(0,1192) scale(1,-1)">MOCK_MODE=false</text>
+			<text x="864" y="562" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1124) scale(1,-1)">Evon: private /v1/chat/completions HTTP</text>
+			<text x="864" y="533" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1066) scale(1,-1)">Prisma/Timbre: gnani-vachana 0.8.1</text>
+			<text x="864" y="504" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,1008) scale(1,-1)">Speech auth: X-API-Key-ID via official SDK</text>
+			<text x="864" y="475" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,950) scale(1,-1)">Translation: identity or Google v3 NMT</text>
+			<text x="864" y="446" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,892) scale(1,-1)">Speech SDK calls: bounded worker threads</text>
+			<text x="864" y="417" style="font-family: Helvetica; font-size: 22px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,834) scale(1,-1)">Errors stay explicit; predictions are not fabricated</text>
+			<path d="M 400,690 L 400,630 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="400 630, 394.7804 640.8054, 405.2196 640.8054" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,17%,25%); fill-rule: evenodd;"/>
+			<path d="M 1194,690 L 1194,630 Z" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="1194 630, 1188.78 640.8054, 1199.22 640.8054" style="stroke: rgb(7%,17%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,17%,25%); fill-rule: evenodd;"/>
+			<rect x="56" y="90" width="1488" height="110" rx="14" ry="14" style="stroke: rgb(38%,48%,58%); stroke-linecap: butt; stroke-width: 1.8; fill: rgb(92%,94%,96%); fill-rule: evenodd;"/>
+			<text x="76" y="166" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(38%,48%,58%); stroke:none;" transform="translate(0,332) scale(1,-1)">Evon request invariants</text>
+			<text x="76" y="132" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,264) scale(1,-1)">enable_thinking=false; temperature=0; max_tokens=8; stream=false. Accept only A/B/C after whitespace with finish_reason=stop. Ignore reasoning_content;</text>
+			<text x="76" y="106" style="font-family: Helvetica; font-size: 19px;fill: rgb(7%,17%,25%); stroke:none;" transform="translate(0,212) scale(1,-1)">confidence=null.</text>
+		</g>
+	</g>
+</svg>
