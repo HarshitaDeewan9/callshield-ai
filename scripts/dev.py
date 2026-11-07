@@ -43,9 +43,12 @@ def main():
         PUBLIC_ORIGIN="http://localhost:5173",
         COOKIE_SECURE="false",
         BIND_ADDRESS="127.0.0.1",
-        DATABASE_URL=f"jdbc:h2:file:{ROOT.as_posix()}/gateway/data/callshield;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE",
-        DATABASE_USER="sa",
-        DATABASE_PASSWORD="",
+        DATABASE_URL=os.environ.get(
+            "DATABASE_URL",
+            "jdbc:postgresql://127.0.0.1:5432/callshield",
+        ),
+        DATABASE_USER=os.environ.get("DATABASE_USER", "callshield"),
+        DATABASE_PASSWORD=os.environ.get("DATABASE_PASSWORD", "callshield_local"),
     )
     if args.real:
         # Fail before launching Java/React; never print raw Settings validation inputs or secrets.
