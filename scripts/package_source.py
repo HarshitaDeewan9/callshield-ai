@@ -19,6 +19,7 @@ EXCLUDE = {
 }
 EXTENSIONS = {
     ".py",
+    ".java",
     ".md",
     ".json",
     ".ts",
@@ -41,7 +42,7 @@ def allowed(path):
         path.is_file()
         and not path.is_symlink()
         and not any(part in EXCLUDE or part.startswith(".") for part in relative.parts)
-        and (path.suffix in EXTENSIONS or path.name == "Dockerfile")
+        and (path.suffix in EXTENSIONS or path.name in ("Dockerfile", "Caddyfile"))
     )
 
 
