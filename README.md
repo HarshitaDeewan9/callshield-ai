@@ -7,6 +7,10 @@
 [![Database](https://img.shields.io/badge/Database-PostgreSQL%2017%20%7C%20Flyway-blue?style=flat-square&logo=postgresql)](deploy/)
 [![LLM](https://img.shields.io/badge/Foundation%20Model-Evon%2030B-purple?style=flat-square)]()
 [![Speech AI](https://img.shields.io/badge/Speech%20AI-Gnani%20Prisma%20%26%20Timbre-red?style=flat-square)]()
+[![1-Page Pitch](https://img.shields.io/badge/📄%20Executive%20Pitch-1--Page%20Document-blueviolet?style=for-the-badge)](PITCH.md)
+
+> 📄 **Looking for the executive summary? Read our [1-Page Solution Pitch](PITCH.md).**  
+> 🌐 **Live Cloud Demo**: [https://callshiel.me](https://callshiel.me)
 
 ---
 
