@@ -30,9 +30,9 @@ services:
       MOCK_MODE: ${MOCK_MODE:-true}
       APP_API_KEY: ${APP_API_KEY:?Run deploy/init_config.py first}
       GNANI_API_KEY: ${GNANI_API_KEY:-}
-      EVON_BASE_URL: http://127.0.0.1:8080/v1
+      EVON_BASE_URL: ${EVON_BASE_URL:-http://127.0.0.1:8080/v1}
       EVON_API_KEY: ${EVON_API_KEY:-}
-      EVON_MODEL: evon
+      EVON_MODEL: ${EVON_MODEL:-evon}
       EVON_CONTEXT_TOKENS: ${EVON_CONTEXT_TOKENS:-4096}
       RISK_MAX_TOKENS: ${RISK_MAX_TOKENS:-512}
       EVON_TIMEOUT_SECONDS: ${EVON_TIMEOUT_SECONDS:-120}
