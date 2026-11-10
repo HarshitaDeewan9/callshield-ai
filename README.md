@@ -10,7 +10,7 @@
 [![1-Page Pitch](https://img.shields.io/badge/📄%20Executive%20Pitch-1--Page%20Document-blueviolet?style=for-the-badge)](PITCH.md)
 
 > 📄 **Looking for the executive summary? Read our [Summary](PITCH.md).**
-> > 📄 **Solution Pitch: Read our [1-Page Solution Pitch](https://drive.google.com/file/d/1IdEv0r0Rs028KgA8w3W1FgBM-yq-AEKT/view?usp=sharing).**
+> 📄 **Solution Pitch: Read our [1-Page Solution Pitch](https://drive.google.com/file/d/1IdEv0r0Rs028KgA8w3W1FgBM-yq-AEKT/view?usp=sharing).**
 > 🌐 **Live Cloud Demo**: [https://callshiel.me](https://callshiel.me)
 
 ---
